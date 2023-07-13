@@ -1,0 +1,77 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to bottom, #f1f1f1, #c1c1c1);
+    font-family: 'Roboto', Arial, sans-serif;
+  }
+  
+  .login-container {
+    width: 300px;
+    padding: 20px;
+    background: #ffffff;
+    border: 5px solid #e0955c;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333333;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 25px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background: #4c81af;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s ease;
+  }
+  
+  input[type="submit"]:hover {
+    background: #45a049;
+  }
+  
+  .alternate-option {
+    text-align: center;
+    color: #666666;
+    font-size: 14px;
+  }
+  
+  .alternate-option a {
+    color: #4c81af;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .alternate-option a:hover {
+    text-decoration: underline;
+  }
+  
